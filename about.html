@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/customv1.css" rel="stylesheet">
+    <!-- fontawesome icons import -->
+    <link href="fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
+    <!-- google fonts typography import -->
+    <link href="https://fonts.googleapis.com/css?family=GFS+Didot" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+
+    <title>JuanPGonzalez</title>
+  </head>
+  <body onload="typeWriter()">
+
+    <br>
+      <div class="container">
+        <div class="row">
+          <div class="col col-sm">
+            <h1>Juan Pablo Gonzalez P.</h1>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-circle" style="background-color:transparent;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+              <i class="fas fa-language fa-2x"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Spanish</a>
+              <a class="dropdown-item" href="#">English</a>
+              <a class="dropdown-item" href="#">French</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="col-10">
+            <div class="container">
+              <div class="row">
+                  <p class="tags">Web Developer&nbsp;</p>
+                  <p class="tags">& Designer</p>
+              </div>
+              <br>
+
+              </div>
+          </div>
+          <p class="description" id="writer"></p>
+          <br>
+          <br>
+          <a href="#" download="JuanPabloGonzalezP-Resume.pdf">Download my <strong>resume</strong> here. </a> <br>
+          <a href="mailto:jp.gonzalez14@icloud.com">Contact me at <strong>jp.gonzalez14@icloud.com</strong></a>
+          <br> <br>
+          <br> <br>
+      </div>
+
+      <script type="text/javascript">
+      var i = 0;
+      var txt = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+      var speed = 50;
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("writer").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+      </script>
+
+
+    <footer class="fixed-bottom">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#"><p class="navs">Home</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><p class="navs">Projects</p></a>
+        </li>
+      </ul>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Bootstrap core JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js" rel="stylesheet"></script>
+  </body>
+</html>
