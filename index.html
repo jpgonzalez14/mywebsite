@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107948223-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107948223-1');
+    </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,20 +35,20 @@
     <div class="container-fluid">
       <p id="date"></p>
       <p>
-        juanpgonzlez:~ webSite$ <span id="inic">cd documents/me</span>
+        juanpgonzlez:~ webSite$ <span>cd documents/me</span>
         <br>
-        juanpgonzlez:me webSite$ <span id="inic1">cat AboutMe.txt</span>
+        juanpgonzlez:me webSite$ <span>cat AboutMe.txt</span>
         <br>
         --------------------------------- <br>
         My name is <span class="green">Juan Pablo Gonzalez P.</span> <br>
         --------------------------------- <br>
         <span class="blue">- Web developer</span>  <span class="purple">& Designer</span> <br><br>
 
-        <span id="writer"></span>
+        <span>I am passionate about sports, technology and being able to work with talented people. I want to work developing software solutions that have an impact on the industry. I love to carry out my own ideas, to be entrepreneur,proactive and have a good team work. In my experience at the university, one of the biggest challenges I have faced is working as a team where people do not want to carry out their tasks, so I have researched to understand how to motivate people to love the things they do, since to work in a team is also to understand each other, to care about each other and to give constructive criticism to improve.</span>
         <br><br>
 
-        links = (<span class="purple"></i> GitHub</span>, <span class="blue"></i> linkedin</span>) <br> <br>
-        <a href="#" download="JuanPabloGonzalezP-Resume.pdf">Download my <strong><span class="yellow">resume</span></strong> here. </a> <br>
+        links = ( <a href="https://github.com/jpgonzalez14"><span class="purple"></i> GitHub</span></a>, <a href="https://www.linkedin.com/in/juan-pablo-gonzalez-p-19038b139/"><span class="blue"></i> linkedin</span></a>) <br> <br>
+        <a href="JuanPabloGonzalezPCV.pdf" download="CV">Download my <strong><span class="yellow">resume</span></strong> here. </a> <br>
         <a href="mailto:jp.gonzalez14@icloud.com">Contact me at <span class="red">jp.gonzalez14@icloud.com</span></a>
         <br> <br>
         juanpgonzlez:me webSite$<i class="fas fa-square-full tamano" style="color: gray"></i>
@@ -78,28 +88,6 @@
       if (i < txt.length) {
         document.getElementById("writer").innerHTML += txt.charAt(i);
         i++;
-        setTimeout(typeWriter, speed);
-      }
-    }
-    </script>
-
-    <script type="text/javascript">
-    var i = 0;
-    var j = 0;
-    var txt = 'cd documents/me';
-    var txt1 = 'cat AboutMe.txt';
-    var speed = 50;
-    function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("inic").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-      }
-    }
-    function typeWriter() {
-      if (j < txt1.length) {
-        document.getElementById("inic1").innerHTML += txt1.charAt(i);
-        j++;
         setTimeout(typeWriter, speed);
       }
     }
