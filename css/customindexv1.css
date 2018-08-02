@@ -2,6 +2,12 @@ body{
   background-color: #fff;
   font-family: 'Source Code Pro', monospace;
 }
+hr{
+  color: #B9B9B9;
+  background-color: #B9B9B9;
+  height: 1px;
+  margin-top: 0em;
+}
 .title{
   color: #2C2D33;
   font-weight: bolder;
@@ -19,9 +25,9 @@ a{
   color: #4C5759;
   font-weight: medium;
 }
-a:visited {color:black;}
+a:visited {color:#4C5759;}
 a:hover {color:gray;}
-a:active {color:black;}
+a:active {color:#4C5759;}
 
 .deco{
   color: #B9B9B9;
@@ -29,4 +35,8 @@ a:active {color:black;}
 }
 i{
   color: #B9B9B9;
+}
+.project:hover{
+  color:#589DE0;
+  text-decoration:none;
 }
