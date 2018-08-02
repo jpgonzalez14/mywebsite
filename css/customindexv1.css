@@ -1,0 +1,32 @@
+body{
+  background-color: #fff;
+  font-family: 'Source Code Pro', monospace;
+}
+.title{
+  color: #2C2D33;
+  font-weight: bolder;
+  font-size: 8vh;
+}
+.subtitle{
+  color: #589DE0;
+  font-size: 3vh;
+}
+.gtext{
+  color: #4C5759;
+  font-weight: medium;
+}
+a{
+  color: #4C5759;
+  font-weight: medium;
+}
+a:visited {color:black;}
+a:hover {color:gray;}
+a:active {color:black;}
+
+.deco{
+  color: #B9B9B9;
+  font-family: 'Roboto', sans-serif;
+}
+i{
+  color: #B9B9B9;
+}
