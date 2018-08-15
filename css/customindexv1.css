@@ -40,3 +40,9 @@ i{
   color:#589DE0;
   text-decoration:none;
 }
+#me{
+  max-width:26%;
+  object-fit: scale-down;
+  filter: grayscale(100%);
+  /*box-shadow: 5px 5px 8px grey;*/
+}

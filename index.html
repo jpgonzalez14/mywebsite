@@ -1,97 +1,68 @@
 <!doctype html>
 <html lang="en">
   <head>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107948223-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-107948223-1');
-    </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <!--custom CSS-->
+    <link href="css/customindexv1.css" rel="stylesheet">
     <!-- fontawesome icons import -->
     <link href="fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
     <!-- google fonts typography import -->
-    <link href="https://fonts.googleapis.com/css?family=GFS+Didot" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Source+Code+Pro" rel="stylesheet">
 
     <title>JuanPGonzalez</title>
   </head>
-  <body onload="typeWriter()">
+  <body>
 
-    <div class="container-fluid header">
-        <a class="navbar-brand" href="#"><span class="title">juanpgonzalez.com-bash-<span id="screensize"></span></span></a>
+    <div class="container">
+      <br>
+      <div class="row">
+        <div class="container-fluid">
+          <div class="container-fluid">
+            <h1 class="title">JUAN PABLO GONZALEZ P.</h1>
+          </div>
+          <div class="container-fluid">
+            <p class="subtitle">&emsp;Web Developer & Designer</p>
+          </div>
+        </div>
+      </div>
+      <!-- contact information -->
+      <div class="container-fluid row">
+        <p class="gtext">
+        <div>&emsp;<i class="fas fa-phone"></i> <span class="gtext"> +57 3006595279</span></div>
+        <div>&emsp; <a href="mailto:jp.gonzalez14@icloud.com"> <i class="fas fa-at"></i> jp.gonzalez14@icloud.com</div> </a>
+        <div>&emsp; <i class="fas fa-map-marker-alt"></i>  <span class="gtext">Bogotá D.C. Colombia</span></div>
+        </p>
+      </div>
+      <br>
+      <div class="container row">
+        <div class="col-8">
+          <h5 class="deco">ABOUT ME</h5>
+          <hr>
+          <img src="images/meMin.png" class="rounded float-left" id="me" alt="me" hspace="15">
+          <p class="gtext" style="text-align: justify;">I am passionate about sports, technology and being able to work with talented people. I want to work developing software solutions that have an impact on the industry. I love to carry out my own ideas, to be entrepreneur,proactive and have a good team work. In my experience at the university, one of the biggest challenges I have faced is working as a team where people do not want to carry out their tasks, so I have researched to understand how to motivate people to love the things they do, since to work in a team is also to understand each other, to care about each other and to give constructive criticism to improve.</p>
+          <p class="gtext">Links of interest: <a href="https://github.com/jpgonzalez14"><span style="color: #DDA0DD;"></i><strong>GitHub</strong></span></a>, <a href="https://www.linkedin.com/in/juan-pablo-gonzalez-p-19038b139/"><span style="color: #589DE0;"></i><strong>Linkedin</strong></span></a></p>
+          <a href="JuanPabloGonzalezPCV.pdf" download="CV">Download my <strong style="color: #589DE0;">resume</strong> here.</a>
+        </div>
+        <div class="col-4">
+          <h5 class="deco">PROJECTS</h5>
+          <hr>
+          <div class="container-fluid">
+            <p><a href="projects/community.html" class="project gtext next"><h5><i class="fas fa-code"></i> COMMUNITY</h5></a></p>
+            <p><a href="projects/pezkao.html" class="project gtext"><h5><i class="fas fa-code"></i> PEZKAO</h5></a></p>
+            <p><a href="projects/aigrowth.html" class="project gtext"><h5><i class="fas fa-code"></i> AIGROUWTH</h5></a></p>
+            <p><a href="projects/oilcol.html" class="project gtext"> <h5><i class="fas fa-code"></i> OILCOL</h5> </a></p>
+            <p><a href="projects/memesiperonoasi.html" class="project gtext"> <h5><i class="fas fa-palette"></i> MEMESIPERONOASI</h5></a></p>
+            <p><a href="projects/datavi.html" class="project gtext"> <h5><i class="fas fa-palette"></i> DATAVI</h5></a></p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="container-fluid">
-      <p id="date"></p>
-      <p>
-        juanpgonzlez:~ webSite$ <span>cd documents/me</span>
-        <br>
-        juanpgonzlez:me webSite$ <span>cat AboutMe.txt</span>
-        <br>
-        --------------------------------- <br>
-        My name is <span class="green">Juan Pablo Gonzalez P.</span> <br>
-        --------------------------------- <br>
-        <span class="blue">- Web developer</span>  <span class="purple">& Designer</span> <br><br>
-
-        <span>I am passionate about sports, technology and being able to work with talented people. I want to work developing software solutions that have an impact on the industry. I love to carry out my own ideas, to be entrepreneur,proactive and have a good team work. In my experience at the university, one of the biggest challenges I have faced is working as a team where people do not want to carry out their tasks, so I have researched to understand how to motivate people to love the things they do, since to work in a team is also to understand each other, to care about each other and to give constructive criticism to improve.</span>
-        <br><br>
-
-        links = ( <a href="https://github.com/jpgonzalez14"><span class="purple"></i> GitHub</span></a>, <a href="https://www.linkedin.com/in/juan-pablo-gonzalez-p-19038b139/"><span class="blue"></i> linkedin</span></a>) <br> <br>
-        <a href="JuanPabloGonzalezPCV.pdf" download="CV">Download my <strong><span class="yellow">resume</span></strong> here. </a> <br>
-        <a href="mailto:jp.gonzalez14@icloud.com">Contact me at <span class="red">jp.gonzalez14@icloud.com</span></a>
-        <br> <br>
-        juanpgonzlez:me webSite$<i class="fas fa-square-full tamano" style="color: gray"></i>
-
-
-      </p>
-    </div>
-
-    <!-- scripts for date -->
-    <script type="text/javascript">
-    var objToday = new Date(),
-    weekday = new Array('Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'),
-    dayOfWeek = weekday[objToday.getDay()],
-    //domEnder = function() { var a = objToday; if (/1/.test(parseInt((a + "").charAt(0)))) return "th"; a = parseInt((a + "").charAt(1)); return 1 == a ? "st" : 2 == a ? "nd" : 3 == a ? "rd" : "th" }(),
-    dayOfMonth = today + ( objToday.getDate() < 10) ? '0' + objToday.getDate() : objToday.getDate(),
-    months = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'),
-    curMonth = months[objToday.getMonth()],
-    curYear = objToday.getFullYear(),
-    curHour = objToday.getHours() > 12 ? objToday.getHours() - 12 : (objToday.getHours() < 10 ? "0" + objToday.getHours() : objToday.getHours()),
-    curMinute = objToday.getMinutes() < 10 ? "0" + objToday.getMinutes() : objToday.getMinutes(),
-    curSeconds = objToday.getSeconds() < 10 ? "0" + objToday.getSeconds() : objToday.getSeconds(),
-    curMeridiem = objToday.getHours() > 12 ? "PM" : "AM";
-    var today = "Last login: " + dayOfWeek + " " + curMonth + "  " + dayOfMonth + " " + curHour + ":" + curMinute + ":" + curSeconds + " on ttys000";
-
-    document.getElementById("date").innerHTML = today;
-    </script>
-    <script type="text/javascript">
-    var x = screen.width + "x" + screen.height;
-    document.getElementById("screensize").innerHTML = x;
-    </script>
-
-    <script type="text/javascript">
-    var i = 0;
-    var txt = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
-    var speed = 50;
-    function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("writer").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-      }
-    }
-    </script>
 
 
     <!-- Optional JavaScript -->
