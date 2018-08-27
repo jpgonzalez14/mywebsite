@@ -23,3 +23,13 @@ Tecnologias:
 >/ Google Fonts
 >/ Google analytics
 
+[MIT License](https://github.com/jpgonzalez14/mywebsite/blob/master/LICENSE)
+
+Instrucciones de uso:
+
+1. Descargar o clonar repositorio
+2. Abrir la terminal 
+3. Ejecute el comando http-server //en caso de no estar intalado, debe escribir el comando: install http-server -g
+4. Desplegar la pagina en su browser
+
+#Nota: Proximante esta la version template de esta pagina, de esta forma sera mas facil de personalizar y estara mejor documentada. 
