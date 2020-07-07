@@ -1,3 +1,4 @@
+/*Podrías agregar documentación en tu custom.css para facilitar el entendimiento del código. */
 @font-face { font-family: menlo; src: url('./fonts/Menlo-Regular.ttf'); }
 body{
   background-color: #434343;
